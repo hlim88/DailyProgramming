@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 
-  int test;
+  long int test;
 
   cout<<"Please enter your integer : ";
   cin>>test;
@@ -21,8 +21,8 @@ int main() {
 
   cout<<"Is this palindrome?? \n";
 
-  int eval = test;
-  int updt=0;
+  long int eval = test;
+  long int updt=0;
 
   while(eval>0) {
 	updt = updt*10 + eval%10;
