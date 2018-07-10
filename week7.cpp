@@ -22,7 +22,7 @@ int main(void)
    int size, i, j, k = 0;
 
    puts("Please enter your sentence :");
-   gets(line);
+   fgets(line, sizeof(line), stdin);
 
    size = strlen(line);
 
