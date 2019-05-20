@@ -12,6 +12,7 @@ Output: “cba 321 elppa”
 #include <string>
 #include <cmath>
 #include <cstdlib>
+#include <cstring>
 
 using namespace std;
 
