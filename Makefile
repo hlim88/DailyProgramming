@@ -20,4 +20,4 @@ all:
 	$(CC) $(SRC9) $(C_FLAGS) -o week9
 	$(CC) $(SRC12) $(C_FLAGS) -o week12
 clean:
-	rm -rf *.o week1 week2 week4 week7 week8 week9 week12
+	rm -rf *.o week1 week2 week4 week7 week8 week9 week12 a.out
