@@ -1,2 +1,5 @@
 language: cpp
+complier:
+- clang
+- g++
 script: make
